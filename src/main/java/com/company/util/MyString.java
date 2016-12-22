@@ -1,4 +1,4 @@
-package stringProblem;
+package com.company.util;
 
 public class MyString {
 	
@@ -6,7 +6,7 @@ public class MyString {
 	 * Iterate through the String, one character at a time
 	 * 
 	 */
-	public String remove1(String sStr, char c) {
+	public String removeCharInString(String sStr, char c) {
 		StringBuilder st = new StringBuilder();
 		for(int i = 0; i < sStr.length(); i++) {
 			if(sStr.charAt(i) != c) 
@@ -21,7 +21,7 @@ public class MyString {
 	 * Find a method in the String class that can solve this in one line
 	 * 
 	 */
-	public String remove2(String sStr, Character c) {
+	public String removeCharInStringWithReplace(String sStr, Character c) {
 		return sStr.replaceAll(c.toString(), "");
 	}
 
