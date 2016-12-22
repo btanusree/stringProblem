@@ -48,7 +48,7 @@ public class MyStringTest {
 	}
 
 	
-	//@Test
+	@Test
 	public void test22() {
 		String str = "APPLICATION";
 		char c = 'A';

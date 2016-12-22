@@ -21,8 +21,8 @@ public class MyString {
 	 * Find a method in the String class that can solve this in one line
 	 * 
 	 */
-	public String remove2(String sStr, char c) {
-		return sStr.replace(c, '\0');
+	public String remove2(String sStr, Character c) {
+		return sStr.replaceAll(c.toString(), "");
 	}
 
 }
